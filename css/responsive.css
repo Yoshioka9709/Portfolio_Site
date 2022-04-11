@@ -1,0 +1,116 @@
+@media (max-width: 600px) {
+  .container {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  #about, #skills, #works, #contact {
+    padding: 30px 0;
+  }
+  #about .main-title-content h3, #skills .main-title-content h3, #works .main-title-content h3, #contact .main-title-content h3 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  header .nav-content {
+    margin: 0;
+    display: none;
+  }
+  header .header-icon-wrapper {
+    margin-left: 5px;
+  }
+  header .title-content {
+    display: none;
+  }
+  header .sp-nav-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #top .main-content {
+    height: 600px;
+  }
+  #top .main-content h2 {
+    padding-left: 10px;
+  }
+  #about .main-wrapper {
+    padding: 5px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #about .main-wrapper .right-content {
+    padding: 5px 0 0 10px;
+  }
+  #about .main-wrapper .right-content h4 {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  #about .main-wrapper .right-content span {
+    padding-left: 18px;
+    font-size: 20px;
+  }
+  #about .main-wrapper .right-content .text {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #skills .main-wrapper {
+    padding-bottom: 30px;
+  }
+  #skills .main-wrapper .card {
+    padding: 15px 10px;
+  }
+  #skills .main-wrapper .card .right-content .text {
+    font-size: 13px;
+  }
+  #skills .main-wrapper .card .right-content {
+    padding-left: 10px;
+  }
+  #skills .main-wrapper .card .right-content h4 {
+    font-size: 25px;
+  }
+  #skills .main-wrapper .card .right-content .text {
+    font-size: 15px;
+  }
+  #skills .second-wrapper {
+    padding: 0 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #skills .second-wrapper .card {
+    margin: 20px 0;
+  }
+  #works .main-wrapper .card .image-wrapper {
+    height: 120px;
+  }
+  #works .main-wrapper .card .image-wrapper img {
+    width: 100%;
+  }
+  #works .main-wrapper .card .title-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 36px;
+    background-color: #818181;
+  }
+  #works .main-wrapper .card .title-content h4 {
+    padding-left: 15px;
+    color: white;
+  }
+  #contact .treatment-image-wrapper img {
+    height: 30px;
+  }
+  #contact .form-content input {
+    width: 100%;
+  }
+  #contact .submit-button input {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,146 @@
+@media (max-width: 600px) {
+    .container {
+        transform: translateY(20px);
+    }
+
+    #about, #skills, #works, #contact {
+        padding: 30px 0;
+
+        .main-title-content {
+            h3 {
+                font-size: 35px;
+                font-weight: bold;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    header {
+        .nav-content {
+            margin: 0;
+            display: none;
+        }
+
+        .header-icon-wrapper {
+            margin-left: 5px;
+        }
+
+        .title-content {
+            display: none;
+        }
+
+        .sp-nav-content {
+            display: flex;
+        }
+    }
+
+    #top .main-content {
+        height: 600px;
+
+        h2 {
+            padding-left: 10px;
+        }
+    }
+
+    #about .main-wrapper {
+        padding: 5px 0;
+        flex-flow: column;
+
+        .right-content {
+            padding: 5px 0 0 10px;
+
+            h4 {
+                padding-top: 10px;
+                font-size: 25px;
+            }
+
+            span {
+                padding-left: 18px;
+                font-size: 20px;
+            }
+
+            .text {
+                padding-top: 20px;
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    #skills {
+        .main-wrapper {
+            padding-bottom: 30px;
+            .card {
+                padding: 15px 10px;
+
+                .right-content .text {
+                    font-size: 13px;
+                }
+
+                .right-content {
+                    padding-left: 10px;
+
+                    h4 {
+                        font-size: 25px;
+                    }
+
+                    .text {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .second-wrapper {
+            padding: 0 20px;
+            flex-flow: column;
+
+            .card {
+                margin: 20px 0;
+            }
+        }
+    }
+
+    #works {
+        .main-wrapper .card {
+            .image-wrapper {
+                height: 120px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .title-content {
+                display: flex;
+                align-items: center;
+                height: 36px;
+                background-color: #818181;
+
+                h4 {
+                    padding-left: 15px;
+
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    #contact {
+        .treatment-image-wrapper img{
+            height: 30px;
+        }
+
+        .form-content input {
+            width: 100%;
+        }
+
+        .submit-button {
+
+            input {
+                padding: 10px;
+            }
+        }
+    }
+}
